@@ -1,0 +1,63 @@
+/* Стиль для счетчика */
+.counter {
+    font-size: 2em;
+    margin: 20px;
+}
+.counter-display {
+    color: black;
+}
+
+/* Стиль для кнопок */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Стиль для блока с координатами */
+.coordinate-box {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+/* Стиль для светофора */
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #333;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.light.red {
+    background-color: red;
+}
+
+.light.yellow {
+    background-color: yellow;
+}
+
+.light.green {
+    background-color: green;
+}
+
+.message {
+    font-size: 1.2em;
+    font-weight: bold;
+}
